@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+body {
+  font-family: Rubik, serif;
+  background: linear-gradient(90deg, #ffb700 0%, #563e00 100%);
+}
+
+.btn.btn-primary {
+  background-color: #3b9300;
+  border: #3b9300;
+}
+
+.col-lg-12.side-bar.my-4 a {
+  color: orange;
+}
+
+.navbar.navbar-expand-lg {
+  background-color: #563e00;
+}
+
+.nav-link {
+  color: white;
+}
+
+.navbar-nav .nav-link.active {
+  color: #df9800;
+}
+
+.navbar-brand img {
+  max-width: 50px;
+}
+
+.navbar-toggler {
+  background-color: white;
+}
+
+.side-bar {
+  color: white;
+  background: linear-gradient(90deg, #563e00 0%, #3b9300 100%);
+}
+
+.card {
+  background: #563e00;
+}
+
+.card a {
+  color: white;
+  text-decoration: none;
+}
+
+.slide-text,
+.footer-text
+{
+  color: white;
+  margin: auto auto;
+}
+
+.col-lg-4.col-md-12.footer-text a
+{
+  text-decoration: none;
+  color: white;
+}
+
+.help-section a {
+  text-decoration: none;
+  color: white;
+  font-size: 2em;
+}
+
+footer {
+  background: #563e00;
+}
+
+.image-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-anim {
+  animation: phone 3s ease 0s infinite normal forwards;
+}
+
+
+
+@keyframes phone {
+	0%,
+	100% {
+		transform: rotate(0deg);
+		transform-origin: 50% 50%;
+	}
+
+	10% {
+		transform: rotate(8deg);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: rotate(-10deg);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: rotate(10deg);
+	}
+
+	80% {
+		transform: rotate(-8deg);
+	}
+
+	90% {
+		transform: rotate(8deg);
+	}
+}
+
+/* Адаптивка */
+@media (max-width: 755px) {
+    .carousel-indicators {
+      display: none;
+    }
+}
